@@ -1,0 +1,12 @@
+<p>Demo Component</p>
+<p>{{message}}</p>
+<button>Click</button>
+<!-- <div *ngFor="let prod of products">
+    <p>Product is {{prod.id}}</p>
+    <p>Product is {{prod.name}}</p>
+    <p>Product is {{prod.desc}}</p>
+</div> -->
+<app-demo2 *ngFor="let prod of products" [product]="prod">
+
+</app-demo2>
+
